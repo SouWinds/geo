@@ -1,0 +1,24 @@
+{
+  "name": "d3_geojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailiaspeng/d3_geojson.git"
+  },
+  "dependencies": {
+    "d3": "^3.5.17",
+    "d3-geo": "^1.11.3"
+  },
+  "keywords": [],
+  "author": "sailiaspeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sailiaspeng/d3_geojson/issues"
+  },
+  "homepage": "https://github.com/sailiaspeng/d3_geojson#readme"
+}

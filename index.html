@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>d3 with geoJson</title>
+    </head>
+    <body>
+        <script src="node_modules/d3//d3.min.js"> </script>
+        <script src="node_modules/d3-geo/dist/d3-geo.min.js"></script>
+        <script src="node_modules/d3-array/dist/d3-array.min.js"></script>
+        <script src="app.js"></script>
+        <style>
+        .main {
+        height: 800px;
+        width: 100%;
+        }
+        </style>
+        <!-- 动作提示 -->
+        <div id="tips" style="bottom:100px;left: 0;position:absolute;height: 100px;width:100px">
+            
+        </div>
+        <!--  绘图容器 -->
+        <svg id='map' class="main">
+            
+        </svg>
+        <hr>
+        <!-- 操作日志 -->
+        <div id='log'>
+        </div>
+    </body>
+</html>
